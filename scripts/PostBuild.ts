@@ -1,6 +1,6 @@
 import { copyFile } from 'fs'
 
-const copyToDist = (source, destination) => {
+const copyToDist = (source: string, destination: string) => {
   copyFile(source, destination, (err) => {
     if (err) throw err
     console.log(`${source} copied to dist`)

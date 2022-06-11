@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "pre-build": "node ./scripts/PreBuild.js",
-    "post-build": "node ./scripts/PostBuild.js",
+    "pre-build": "npx ts-node ./scripts/PreBuild.ts",
+    "post-build": "npx ts-node ./scripts/PostBuild.ts",
     "build": "npm run pre-build && npx tsc && npm run post-build"
   },
   "repository": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Firas88Alkhatib/legot#readme",
   "devDependencies": {
+    "ts-node": "^10.8.1",
     "typescript": "^4.7.3"
   }
 }
