@@ -1,0 +1,28 @@
+{
+  "name": "legot",
+  "version": "0.0.1",
+  "description": "A javascript library for building web user interfaces.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "pre-build": "node ./scripts/PreBuild.js",
+    "post-build": "node ./scripts/PostBuild.js",
+    "build": "npm run pre-build && npx tsc && npm run post-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firas88Alkhatib/legot.git"
+  },
+  "keywords": [
+    "legot"
+  ],
+  "author": "Firas Alkhatib",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Firas88Alkhatib/legot/issues"
+  },
+  "homepage": "https://github.com/Firas88Alkhatib/legot#readme",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  }
+}
