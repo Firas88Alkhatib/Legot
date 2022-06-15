@@ -1,4 +1,4 @@
-# Legot
+# [Legot](https://www.npmjs.com/package/legot)
 
 Legot is a JavaScript library for building web user interfaces.
 
