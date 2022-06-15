@@ -2,7 +2,7 @@
 
 Legot is a JavaScript library for building web user interfaces.
 
-Legot is Component-Based. it allows you to build encapsulated components with lifecycl, state management and encapsulated styles.
+Legot is Component-Based. it allows you to build encapsulated components with lifecycle, state management and encapsulated styles.
 It supports JSX syntax and has Virtual DOM.
 
 # Get started
